@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+    position: relative;
+    top: 150px;
+    border: 1px solid black;
+    width: 24%;
+    left: 38.5%;
+    padding-bottom: 400px;
+    border-radius: 30px;
+    padding-top: 20px;
+    background-color: black;
+    color: white;
+}
+form {
+    margin: 20px;
+    position: relative;
+}
+
+label {
+    font-weight: bold;
+    position: relative;
+    color: white;
+    bottom: 130px;
+    left: 5.5%;
+}
+
+input {
+    position: relative;
+    bottom: 80px;
+    right: 3.5%;
+}
+
+button {
+    position: relative;
+    border-radius: 9px;
+    padding-left: 30px;
+    padding-right: 30px;
+    right: 8.4%;
+    bottom: 30px;
+}
+
+#msg {
+    margin: 20px;
+    font-weight: bold;
+    position: relative;
+    left: 1%;
+}
