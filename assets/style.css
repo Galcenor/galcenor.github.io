@@ -27,12 +27,13 @@ label {
     color: white;
     bottom: 130px;
     left: 5.5%;
+    font-size: 22px;
 }
 
 input {
     position: relative;
     bottom: 80px;
-    right: 3.5%;
+    right: 5.9%;
 }
 
 button {
@@ -40,8 +41,10 @@ button {
     border-radius: 9px;
     padding-left: 30px;
     padding-right: 30px;
-    right: 8.4%;
+    right: 10.7%;
     bottom: 30px;
+    background-color: green;
+    color: white;
 }
 
 #msg {
