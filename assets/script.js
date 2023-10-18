@@ -7,7 +7,8 @@ $(document).ready(function() {
         const userGuess = parseInt($('#numberInput').val()); // Je récupère la valeur entrée
 
         if (isNaN(userGuess)) {
-            alert('Merci d\'utiliser un nombre !');
+            $('#msg').text('Merci d\'utiliser un nombre !');
+            $('#msg').css('color', 'red');
         }
 
         if (userGuess === randomNumber) { // Verification si les deux nombres sont correspondants
