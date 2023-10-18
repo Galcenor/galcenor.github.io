@@ -1,6 +1,9 @@
 body {
     text-align: center;
     font-family: Arial, sans-serif;
+    background-color: lightslategray;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 h1 {
@@ -25,14 +28,14 @@ label {
     font-weight: bold;
     position: relative;
     color: white;
-    bottom: 130px;
+    bottom: 250px;
     left: 5.5%;
     font-size: 22px;
 }
 
 input {
     position: relative;
-    bottom: 80px;
+    bottom: 200px;
     right: 5.9%;
 }
 
@@ -41,8 +44,8 @@ button {
     border-radius: 9px;
     padding-left: 30px;
     padding-right: 30px;
-    right: 10.7%;
-    bottom: 30px;
+    right: 10.8%;
+    bottom: 150px;
     background-color: green;
     color: white;
 }
@@ -51,5 +54,36 @@ button {
     margin: 20px;
     font-weight: bold;
     position: relative;
+    left: 0.7%;
+    bottom: 250px;
+}
+
+#pins1 {
+    position: relative;
+    font-size: 50px;
+    bottom: 530px;
+    left: 13%;
+}
+
+#pins2 {
+    position: relative;
+    font-size: 50px;
+    transform:rotate(0.75turn);
+    bottom: 596px;
+    right: 12%;
+}
+
+#money {
+    position: relative;
+    font-size: 100px;
+    bottom: 270px;
     left: 1%;
+}
+
+#made {
+    position: relative;
+    font-size: 12px;
+    font-weight: bold;
+    top: 140px;
+    left: 0.7%;
 }
